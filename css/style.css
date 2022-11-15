@@ -157,4 +157,37 @@ img {
     height: 300px;
     margin-bottom: 1rem;
   }
+  .steps {
+    margin: 0;
+  }
+  .steps .col {
+    width: 100%;
+  }
+  .steps .col img {
+    height: 300px;
+    margin-bottom: 2rem;
+  }
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .text {
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+  }
+  .why-us {
+    background-color: RGB(34, 34, 34);
+    margin-bottom: 0;
+    padding: 5rem 0rem;
+  }
+  .why-us .col-left {
+    width: 80%;
+    margin-bottom: 4rem;
+  }
+  .why-us .col-right {
+    width: 90%;
+  }
+  .col-right p {
+    font-size: 18px;
+  }
 }
