@@ -136,6 +136,9 @@ img {
   .container {
     width: 100%;
   }
+  .text {
+    font-size: 1rem;
+  }
 }
 
 /* mobile 576px  */
