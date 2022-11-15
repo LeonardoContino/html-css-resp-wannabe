@@ -129,11 +129,21 @@ img {
  ************************************************/
 /* 768px */
 @media screen and (max-width: 768px) {
-  header {
-    display: flex;
-  }
   .site-header {
     display: flex;
     justify-content: center;
+  }
+  .container {
+    width: 100%;
+  }
+}
+
+/* mobile 576px  */
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 4em;
+  }
+  h2 {
+    font-size: 3em;
   }
 }
