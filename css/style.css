@@ -127,7 +127,10 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-
+.container {
+  max-width: 1140px;
+  width: 100%;
+}
 /* 768px */
 @media screen and (max-width: 768px) {
   .site-header {
@@ -193,11 +196,5 @@ img {
   }
   .col-right p {
     font-size: 18px;
-  }
-}
-/* prima 1160px bonus */
-@media screen (max-width: 1160px) {
-  .container {
-    max-width: 100%;
   }
 }
